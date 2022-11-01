@@ -10,7 +10,6 @@ const ReactHookForm = () => {
         resetField('lastName');
     };
 
-
     return (
         <div>
             <h2>react-hook-form</h2>
