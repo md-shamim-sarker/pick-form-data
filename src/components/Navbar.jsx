@@ -14,6 +14,7 @@ const Navbar = () => {
             <NavLink to={"/"}>onSubmit</NavLink>
             <NavLink to={"/useRef"}>useRef</NavLink>
             <NavLink to={"/reactHookForm"}>react-hook-form</NavLink>
+            <NavLink to={"/formBuilder"}>form-builder</NavLink>
         </div>
     );
 };

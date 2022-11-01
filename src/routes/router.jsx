@@ -1,4 +1,5 @@
 import {createBrowserRouter} from "react-router-dom";
+import FormBuilder from "../components/FormBuilder";
 import OnSubmit from "../components/OnSubmit";
 import ReactHookForm from "../components/ReactHookForm";
 import UseRef from "../components/UseRef";
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
             {
                 path: "/reactHookForm",
                 element: <ReactHookForm></ReactHookForm>
+            },
+            {
+                path: "/formBuilder",
+                element: <FormBuilder></FormBuilder>
             }
         ]
     }
